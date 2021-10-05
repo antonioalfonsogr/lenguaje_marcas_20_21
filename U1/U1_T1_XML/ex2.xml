@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cluster>
+    <Nodos>
+        <Nodo NombreNodo="Aula 1" IPNodo="63.45.12.34">
+            <MaquinasVirtuales>
+                <MaquinaVirtual NombreMV="MV1_1">
+                    <SistemaOperativo>Mac Os</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>192.168.0.11</IP>
+                            <MAC>00:1e:c2:9e:28:6b</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV1_2">
+                    <SistemaOperativo>Linux Ubuntus</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>192.168.0.1</IP>
+                            <MAC>d4:73:7e:27:ce:25</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV1_3">
+                    <SistemaOperativo>Windows 10</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>234.107.98.1</IP>
+                            <MAC>ed:c9:ec:35:cd:9f</MAC>
+                        </IR>
+                        <IR>
+                            <IP>93.20.22.26</IP>
+                            <MAC>a8:9d:41:62:83:7f</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+            </MaquinasVirtuales>
+        </Nodo>
+        <Nodo NombreNodo="Aula 2" IPNodo="31.162.45.81">
+            <MaquinasVirtuales>
+                <MaquinaVirtual NombreMV="MV2_1">
+                    <SistemaOperativo>Linux Ubuntus</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>188.156.247.252</IP>
+                            <MAC>d6:be:17:02:45:6f</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV2_2">
+                    <SistemaOperativo>Windows 7</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>103.76.125.136</IP>
+                            <MAC>66:24:d8:1a:ee:c5</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV2_3">
+                    <SistemaOperativo>Linux Ubuntus</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>141.0.10.4</IP>
+                            <MAC>b1:65:37:b6:91:6f</MAC>
+                        </IR>
+                        <IR>
+                            <IP>228.189.139.27</IP>
+                            <MAC>88:10:4f:f5:3a:96</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+            </MaquinasVirtuales>
+        </Nodo>
+        <Nodo NombreNodo="Aula 3" IPNodo="220.160.18.14">
+            <MaquinasVirtuales>
+                <MaquinaVirtual NombreMV="MV3_1">
+                    <SistemaOperativo>Windows 10</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>209.112.98.213</IP>
+                            <MAC>fc:ac:70:73:69:f8</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV3_2">
+                    <SistemaOperativo>Windows 10</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>88.104.158.171</IP>
+                            <MAC>9e:32:ac:35:f2:99</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV3_3">
+                    <SistemaOperativo>Windows 7</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>143.45.170.12</IP>
+                            <MAC>78:ca:35:d4:20:6a</MAC>
+                        </IR>
+                        <IR>
+                            <IP>9.8.153.188</IP>
+                            <MAC>eb:94:fa:21:ca:64</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+            </MaquinasVirtuales>
+        </Nodo>
+        <Nodo NombreNodo="Aula 4" IPNodo="117.210.31.231">
+            <MaquinasVirtuales>
+                <MaquinaVirtual NombreMV="MV4_1">
+                    <SistemaOperativo>Linux Ubuntus</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>18.50.88.221</IP>
+                            <MAC>b7:26:f1:bf:84:32</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV4_2">
+                    <SistemaOperativo>Linux Ubuntus</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>132.240.195.198</IP>
+                            <MAC>40:f0:e9:ee:87:3e</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV4_3">
+                    <SistemaOperativo>Mac OS</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>12.246.137.52</IP>
+                            <MAC>55:19:73:15:ab:26</MAC>
+                        </IR>
+                        <IR>
+                            <IP>31.171.141.47</IP>
+                            <MAC>b9:5a:da:58:46:3a</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+            </MaquinasVirtuales>
+        </Nodo>
+        <Nodo NombreNodo="Aula 5" IPNodo="168.24.123.0">
+            <MaquinasVirtuales>
+                <MaquinaVirtual NombreMV="MV5_1">
+                    <SistemaOperativo>Linux Ubuntus</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>10.4.138.50</IP>
+                            <MAC>8a:15:5f:9d:48:73</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV5_2">
+                    <SistemaOperativo>Windows XP</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>97.232.106.232</IP>
+                            <MAC>d2:9c:3d:60:be:b8</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+                <MaquinaVirtual NombreMV="MV5_3">
+                    <SistemaOperativo>Mac OS</SistemaOperativo>
+                    <InterfacesRed>
+                        <IR>
+                            <IP>138.156.117.194</IP>
+                            <MAC>db:99:4f:21:9c:e4</MAC>
+                        </IR>
+                        <IR>
+                            <IP>90.203.79.99</IP>
+                            <MAC>64:db:d9:35:35:5d</MAC>
+                        </IR>
+                    </InterfacesRed>
+                </MaquinaVirtual>
+            </MaquinasVirtuales>
+        </Nodo>
+    </Nodos>
+</Cluster>
