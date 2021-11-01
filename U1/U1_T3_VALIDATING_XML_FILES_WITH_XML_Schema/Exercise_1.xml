@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Members xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Exercise_1.xsd">
+
+    <Member>
+        <Name>Chris Smith</Name>
+        <Years_of_Membership>4</Years_of_Membership>
+    </Member>
+
+    <Member>
+        <Name>Judi Zimmerman</Name>
+        <Years_of_Membership>5</Years_of_Membership>
+    </Member>
+
+    <Member>
+        <Name>Michael Calder</Name>
+        <Years_of_Membership>3</Years_of_Membership>
+    </Member>
+
+</Members>
