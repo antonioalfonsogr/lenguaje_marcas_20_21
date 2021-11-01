@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder orderid="Pedido000001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ej4.xsd">
+    <orderperson>UserPepe</orderperson>
+    <shipto>
+        <name>Pepe Pérez</name>
+        <address>Callejuela 22</address>
+        <city>Sevilla</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>Titulo1</title>
+        <note>Nota1</note>
+        <quantity>1</quantity>
+        <price>1.1</price>
+    </item>
+    <item>
+        <title>Titulo2</title>
+        <quantity>2</quantity>
+        <price>2.2</price>
+    </item>
+</shiporder>
