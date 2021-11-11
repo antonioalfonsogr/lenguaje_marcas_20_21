@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej4</title>
+</head>
+
+<body>
+    <form style="border: 1px solid #FFDB58;">
+        <fieldset style="background-color: #FFDB58;">
+            <label for="leave_form"><b>Leave Form</b></label>
+            <select name="leave_form" id="leave_form" style="background-color: #FFDB58;">
+                <option value="more_action">More Actions</option>
+                <option value="option1">Option1</option>
+                <option value="option2">Option2</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="employee_email"><b>Employee Email</b></label></td>
+                    <td><input type="email" name="employee_email" id="employee_email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="employee_id"><b>Employee Id</b></label></td>
+                    <td><input type="number" name="employee_id" id="employee_id" required></td>
+                </tr>
+                <tr>
+                    <td><label for="employee_name"><b>Employee Name</b></label></td>
+                    <td><input type="text" name="employee_name" id="employee_name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="designation"><b>Designation</b></label></td>
+                    <td><input type="text" name="designation" id="designation" required></td>
+                </tr>
+                <tr>
+                    <td><label for="leave_type"><b>Leave Type</b></label></td>
+                    <td> <select name="leave_type" id="leave_type" required>
+                            <option value="select">-Select-</option>
+                            <option value="option1">-Option1-</option>
+                            <option value="option2">-Option2-</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="from"><b>From</b></label></td>
+                    <td><input type="date" name="from" id="from" required></td>
+                </tr>
+                <tr>
+                    <td><label for="to"><b>To</b></label></td>
+                    <td><input type="date" name="to" id="to" required></td>
+                </tr>
+                <tr>
+                    <td><label for="no_of_days"><b>No of Days</b></label></td>
+                    <td><input type="text" name="no_of_days" id="no_of_days"></td>
+                </tr>
+                <tr>
+                    <td><label for="reason"><b>Reason</b></label></td>
+                    <td><textarea name="reason" id="reason" cols="30" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="background-color: #DCDCDC; text-align: center;">
+            <button type="submit" style="background: #FFDB58; color: white;"><b>Submit</b></button>
+            <button type="reset" style="background: #FFDB58; color: white;"><b>Reset</b></button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
