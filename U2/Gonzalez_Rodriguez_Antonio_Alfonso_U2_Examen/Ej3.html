@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej3</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: separate;
+        }
+    </style>
+</head>
+
+<body>
+    <!--como en la parte inferior de la tabla aparece unos seleccionables y un boton de envio
+    introduzco la tabla en un formulario-->
+    <form>
+        <table>
+            <!--Creo una tabla de 6 filas y 3 columnas-->
+            <tr>
+                <th colspan="3" style="background: chartreuse;">CABECERA: DRAGON BALL SUPER</th>
+            </tr>
+            <tr>
+                <td colspan="2">Castilleja de la Cuesta (Sevilla)</td>
+                <td>
+                    <ul>
+                        <li>Libros</li>
+                        <li>Revista</li>
+                        <li>Prensa</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <!--Introduzco las imagenes con una ruta relativa dentro de la carpeta img-->
+                <td><img src="img/goku.jpg" height="250px"></td>
+                <td><img src="img/goku_vs_moro.jpg" height="250px"></td>
+                <td><img src="img/vegeta.PNG" height="250px"></td>
+            </tr>
+            <tr>
+                <!--Creo los seleccionables con 3 opciones cada uno y como si fuesen
+                relacionados con las imagen que tienen arriba-->
+                <td><label for="goku">Cantidad</label>
+                    <select name="goku" id="goku">
+                        <option value="0"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </td>
+                <td><label for="goku_vs_moro">Cantidad</label>
+                    <select name="goku_vs_moro" id="goku_vs_moro">
+                        <option value="0"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </td>
+                <td><label for="vegeta">Cantidad</label>
+                    <select name="vegeta" id="vegeta">
+                        <option value="0"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <!--El boton lo creo con un input submit-->
+                <td colspan="3" style="text-align: right;">
+                    <input type="submit" value="Enviar consulta">
+                </td>
+            </tr>
+            <tr><th colspan="3" style="background: #008489;">PIE: TUS MEJORES OFERTAS</th>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

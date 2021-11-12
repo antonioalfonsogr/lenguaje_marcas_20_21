@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej4</title>
+</head>
+
+<body>
+    <form>
+        <!--Dejo el ancho del formulario que ocupe el 50% del espacio, pero si quiesiera cambiar, podria realizarse en
+        este primer fieldset-->
+        <fieldset style="border: solid blue; width: 50%;">
+            <h1>Reservation Request</h1>
+            <fieldset>
+                <legend style="color: blue;"><b>General Information</b></legend>
+                <table>
+                    <tr>
+                        <td style="width: 33%;"><label for="arrival_date">Arrival date:</label></td>
+                        <td><input type="date" name="arrival_date" id="arrival_date" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nights">Nights:</label></td>
+                        <td><input type="number" name="nights" id="nights" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adults:"></label>Adults:</td>
+                        <td> <select name="adults" id="adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="children"></label>Children:</td>
+                        <td> <select name="children" id="children">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue;"><b>Preferences</b></legend>
+                <table>
+                    <!--Pongo los input radio para que solo se pueda selecionar uno,
+                    con el mismo nombre y con el id de la opcion seleccionada-->
+                    <tr>
+                        <td><label for="room_type"></label>Room Type:</td>
+                        <td><input type="radio" name="room_type" id="standard">Standar</td>
+                        <td><input type="radio" name="room_type" id="business">Business</td>
+                        <td><input type="radio" name="room_type" id="suite">Suite</td>
+                    </tr>
+                    <tr>
+                        <td><label for="bed_type"></label>Bed type:</td>
+                        <td><input type="radio" name="bed_type" id="king">King</td>
+                        <td><input type="radio" name="bed_type" id="double_double">Double Double</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="smoking" id="smoking">Smoking</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue;"><b>Contact Information</b></legend>
+                <table>
+                    <tr>
+                        <td style="width: 33%;"><label for="name"></label>Name:</td>
+                        <td><input type="text" name="name" id="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"></label>Email:</td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"></label>Phone:</td>
+                        <td><input type="number" name="phone" id="phone" maxlength="9"></td>
+                    </tr>
+                </table>
+                <!--Intento elegir los input según la informacion que aparece en el ejemplo-->
+            </fieldset>
+            <table>
+                <tr>
+                    <td><input style="width: 150px;" type="submit" value="Submit Reservation"></td>
+                    <td><input style="width: 150px;" type="reset" value="Clear"></td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
