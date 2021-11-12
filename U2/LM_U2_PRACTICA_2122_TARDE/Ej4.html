@@ -10,54 +10,82 @@
 
 <body>
     <form style="border: 1px solid #FFDB58;">
-        <fieldset style="background-color: #FFDB58;">
-            <label for="leave_form"><b>Leave Form</b></label>
-            <select name="leave_form" id="leave_form" style="background-color: #FFDB58;">
-                <option value="more_action">More Actions</option>
-                <option value="option1">Option1</option>
-                <option value="option2">Option2</option>
-            </select>
+        <fieldset style="background-color: #FFDB58;;">
+            <table>
+                <tr>
+                    <td style="width: 55%;"><label for="leave_form"><b>Leave Form</b></label></td>
+                    <td><select name="leave_form" id="leave_form" style="background-color: #FFDB58; border: none;">
+                            <option value="more_action">More Actions</option>
+                            <option value="option1">Option1</option>
+                            <option value="option2">Option2</option>
+                        </select></td>
+                </tr>
+            </table>
         </fieldset>
         <fieldset>
             <table>
                 <tr>
-                    <td><label for="employee_email"><b>Employee Email</b></label></td>
+                    <td style="width: 44%;"><label for="employee_email"><b>Employee Email</b></label></td>
                     <td><input type="email" name="employee_email" id="employee_email" required></td>
                 </tr>
                 <tr>
-                    <td><label for="employee_id"><b>Employee Id</b></label></td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td style="width: 44%;"><label for="employee_id"><b>Employee Id</b></label></td>
                     <td><input type="number" name="employee_id" id="employee_id" required></td>
                 </tr>
                 <tr>
-                    <td><label for="employee_name"><b>Employee Name</b></label></td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td style="width: 44%;"><label for="employee_name"><b>Employee Name</b></label></td>
                     <td><input type="text" name="employee_name" id="employee_name" required></td>
                 </tr>
                 <tr>
-                    <td><label for="designation"><b>Designation</b></label></td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td style="width: 44%;"><label for="designation"><b>Designation</b></label></td>
                     <td><input type="text" name="designation" id="designation" required></td>
                 </tr>
                 <tr>
-                    <td><label for="leave_type"><b>Leave Type</b></label></td>
-                    <td> <select name="leave_type" id="leave_type" required>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td style="width: 44%;"><label for="leave_type"><b>Leave Type</b></label></td>
+                    <td> <select style="width: 70%;" name="leave_type" id="leave_type" required>
                             <option value="select">-Select-</option>
                             <option value="option1">-Option1-</option>
                             <option value="option2">-Option2-</option>
                     </td>
                 </tr>
                 <tr>
-                    <td><label for="from"><b>From</b></label></td>
-                    <td><input type="date" name="from" id="from" required></td>
+                    <td> </td>
                 </tr>
                 <tr>
-                    <td><label for="to"><b>To</b></label></td>
-                    <td><input type="date" name="to" id="to" required></td>
+                    <td style="width: 44%;"><label for="from"><b>From</b></label></td>
+                    <td><input type="date" name="from" id="from" required>[dd-MMM-yyyy]</td>
                 </tr>
                 <tr>
-                    <td><label for="no_of_days"><b>No of Days</b></label></td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td style="width: 44%;"><label for="to"><b>To</b></label></td>
+                    <td><input type="date" name="to" id="to" required>[dd-MMM-yyyy]</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td style="width: 44%;"><label for="no_of_days"><b>No of Days</b></label></td>
                     <td><input type="text" name="no_of_days" id="no_of_days"></td>
                 </tr>
                 <tr>
-                    <td><label for="reason"><b>Reason</b></label></td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top; width: 44%;"><label for="reason"><b>Reason</b></label></td>
                     <td><textarea name="reason" id="reason" cols="30" rows="10"></textarea></td>
                 </tr>
             </table>
