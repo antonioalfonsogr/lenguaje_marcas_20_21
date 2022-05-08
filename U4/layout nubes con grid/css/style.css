@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: dimgrey;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 10% 30% 30% 30%;
+    grid-template-rows: 6em 25em 18em 6em;
+    grid-template-areas:    "cabecera cabecera cabecera cabecera"
+                            "menu grande grande mediano"
+                            "menu pequenno1 pequenno2 pequenno3"
+                            "pie pie pie pie";
+    margin: auto;
+    width: 90%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+header {
+    grid-area: cabecera;
+    border-bottom: 1px solid #666666;
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+nav {
+    grid-area: menu;
+    padding: 1em;
+}
+
+nav div {
+    margin-bottom: 1em;
+}
+
+.grande {
+    grid-area: grande;
+}
+
+main, article {
+    border: 1px solid grey;
+    border-radius: 1em;
+    justify-self: center;
+    padding: 1em;
+    text-align: center;
+    width: 90%;
+    margin: 1em;
+}
+
+main img {
+    border-radius: 1em;
+    height: 70%;
+    width: 80%;
+}
+
+main img {
+    border-radius: 1em;
+    height: 70%;
+    width: 80%;
+}
+
+.mediano {
+    grid-area: mediano;
+}
+
+.pequenno1 {
+    grid-area: pequenno1;
+}
+
+.pequenno2 {
+    grid-area: pequenno2;
+}
+
+.pequenno3 {
+    grid-area: pequenno3;
+}
+
+article {
+    border: 1px solid #aaaaaa;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+article img {
+    border-radius: 1em;
+    height: 60%;
+    width: 100%;
+}
+
+article:nth-of-type(2),
+article:nth-of-type(3),
+article:nth-of-type(4) {
+    justify-self: end;
+    width: 90%;
+}
+
+footer {
+    grid-area: pie;
+    align-items: center;
+    border-top: 1px solid #666666;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+footer img {
+    width: 50px;
+}
