@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "cab cab"
+        "for bui"
+        "git git"
+        "img tre";
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    color: black;
+}
+
+header {
+    grid-area: cab;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 10%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2em;
+    margin-left: 1em;
+}
+
+li {
+    padding: 1em 2em 1em 0;
+}
+
+.built {
+    grid-area: bui;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.built h1 {
+    margin-bottom: 1em;
+}
+
+.formulario {
+    grid-area: for;
+    background-color: rgb(40, 40, 40);
+    padding: 2em;
+}
+
+.formulario form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.formulario form label {
+    font-weight: bold;
+}
+
+.formulario form button {
+    border-radius: 0.5em;
+    background-color: green;
+    color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.formulario form input {
+    margin: 0.5em 0;
+    height: 2em;
+}
+
+.github {
+    grid-area: git;
+    margin: 1em;
+    text-align: center;
+    font-size: 1, 2em;
+}
+
+.github h1, .github h3 {
+    margin: 0.5em;
+}
+
+.github p {
+    margin-bottom: 2em;
+}
+
+.github a {
+    margin: 2em;
+    padding: 0.5em;
+    border: 1px solid blue;
+    border-radius: 0.5em;
+    color: blue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.imagen {
+    grid-area: img;
+    text-align: center;
+}
+
+div>img {
+    width: 50%;
+}
+
+.tres {
+    grid-area: tre;
+    display: flex;
+    padding: 1em;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tres div {
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        margin: auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas: "cab"
+            "bui"
+            "for"
+            "git"
+            "img"
+            "tre";
+    }
+
+    header{
+        display: flex;
+        justify-content: space-betweens;
+    }
+
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+        color: white;
+    }
+
+    .tres {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .tres div {
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas: "cab"
+            "bui"
+            "for"
+            "git"
+            "img"
+            "tre";
+    }
+
+    .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+        color: white;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-betweens;
+    }
+
+    .tres {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .tres div {
+        width: 100%;
+    }
+
+    form label, form input, form p {
+        display: none;
+    }
+
+    .formulario form{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(40, 40, 40) ;
+    }
+
+    nav {
+        display: none;
+    }
+}
